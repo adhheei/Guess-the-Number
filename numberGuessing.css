@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.input {
+  text-align: center;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.title {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+input[type="button"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input[type="button"]:hover {
+  background: #45a049;
+}
+
+/* 🎯 Result Announcement */
+#Result {
+  margin-top: 25px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  justify-self: center;
+  width: 80%;
+  max-width: 400px;
+  display: none; /* hidden until result comes */
+}
+
+/* Success (Correct Guess) */
+.success {
+  background: #d4edda;
+  color: #155724;
+  border: 2px solid #c3e6cb;
+}
+
+/* Error (Wrong Guess or Invalid Input) */
+.error {
+  background: #f8d7da;
+  color: #721c24;
+  border: 2px solid #f5c6cb;
+}
+
+/* Info (Try Again) */
+.info {
+  background: #fff3cd;
+  color: #856404;
+  border: 2px solid #ffeeba;
+}
