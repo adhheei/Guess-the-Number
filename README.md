@@ -7,15 +7,13 @@ A simple JavaScript-based number guessing game where the player tries to guess a
 
 🚀 Features
 
-Random number generation within a specified range
+- Random number generation within a specified range
 
-User input for guesses
+- User input for guesses
 
-Feedback messages (too high, too low, correct)
+- Feedback messages (too high, too low, correct)
 
-Score tracking
-
-Simple and responsive design
+- Simple and responsive design
 
 🛠️ Technologies Used
 
