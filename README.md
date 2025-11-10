@@ -1,7 +1,7 @@
-# Guess-the-Number
+# 🎯Guess-the-Number
 
 
-🎯 Number Guessing Game
+ Number Guessing Game
 
 A simple JavaScript-based number guessing game where the player tries to guess a randomly generated number within a given range. The project is built using HTML, CSS, and JavaScript.
 
